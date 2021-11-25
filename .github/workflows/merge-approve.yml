@@ -9,5 +9,5 @@ jobs:
         uses: Cian911/gomerge-action@master
         with:
           repository: ${{ github.repository }}
-          github_token: ${{ github.token }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           approve: "true"
