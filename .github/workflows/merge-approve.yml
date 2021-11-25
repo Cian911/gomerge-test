@@ -6,7 +6,7 @@ jobs:
     name: Approve valid PRs on cadence
     steps:
       - name: Approve valid workflows
-        uses: Cian911/gomerge-action@v1
+        uses: Cian911/gomerge-action
         with:
           repository: ${{ github.repository }}
           github_token: ${{ github.token }}
