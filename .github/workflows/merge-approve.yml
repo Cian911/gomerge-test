@@ -11,4 +11,3 @@ jobs:
           repository: ${{ github.repository }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: ""
-          approve: "true"
