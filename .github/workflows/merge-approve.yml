@@ -8,7 +8,8 @@ jobs:
       - name: Approve valid workflows
         uses: Cian911/gomerge-action@master
         with:
-          repository: ${{ github.repository }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ""
-          approve: "true"
+          args:
+            repository: ${{ github.repository }}
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            labels: ""
+            approve: "true"
