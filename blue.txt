@@ -1,0 +1,16 @@
+ # Summary
+ Add fallback logic to the `GetRepoLocalPath` to allow a `default_path` to be configured to handle repository paths that aren't explicitly configured.
+ 
+ Additional changes:
+ 
+ * Update deps
+ * Add testify module
+ * Refactor repo path unit test to use table tests
+ 
+ ## How did you test this change?
+ * Ran unit tests
+ * Local testing with a repo that doeos not have a matching or wildcard definition in gh-dash
+   
+   * Perform a checkout of a pr
+   * Open a pr in Octo.nvim
+
